@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+    font-size: large;
+   
+}
+table,
+tr,
+td {
+width: 90vw;
+height: 65px;
+border: 2px solid black;
+border-collapse: collapse;
+text-align: center;
+}
+table,
+tr,
+td.noBorder {
+border: none; 
+}
+h1 {
+font-size: xx-large;
+color: red;
+}
+.color_1 {
+background-color: aqua;
+}
+.color_2 {
+background-color: lightcoral;
+}
+.color_3 {
+background-color: lightblue;   
+}
+.color_4 {
+background-color: lightsalmon;
+}
+.color_5 {
+background-color: rgb(230, 176, 230);
+}
+.color_6 {
+background-color: lightslategray;
+}
+.color_7 {
+background-color: aquamarine;
+}
+.color_8 {
+background-color: lightgoldenrodyellow;
+}

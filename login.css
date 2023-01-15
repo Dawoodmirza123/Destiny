@@ -1,0 +1,186 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(https://wallpaperaccess.com/full/88771.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.login{
+    height: 425px;
+    width: 500px;
+    text-align: center;
+    margin-top: 250px; 
+    position: relative;
+    animation-name: css;
+    animation-duration: 2s;
+}
+h1{
+    color: bisque;
+    font-size: 60px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.log2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    padding: 30px;
+    border: 2px solid black;
+}
+input{
+    height: 30px;
+    width: 300px;
+}
+button{
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+
+}
+label{
+    font-size: 20px;
+}
+
+@keyframes css {
+    0%{
+        top: 80px; 
+    }
+    100%{
+        top: 0px;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .login{
+        height: 100px;
+        width: 175px;
+        margin-top: 80px;
+    }
+    body{
+        background-size: auto;
+    }
+    .log2{
+        height: 230px;
+        width: 175px;
+        padding: 20px;
+    }
+    input{
+        height: 20px;
+        width: 150px;
+        font-size: 10px;
+        
+    }
+    button{
+        height: 20px;
+        width: 100px;
+        font-size: 10px;
+    }
+    h1{
+        font-size: 25px;
+        margin-left: 40px;
+    }
+    label{
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 700px) {
+    .login{
+        height: 125px;
+        width: 200px;
+        margin-top: 100px;
+    }
+    body{
+        background-size: auto;
+    }
+    .log2{
+        height: 220px;
+        width: 200px;
+        padding: 20px;
+    }
+    input{
+        height: 20px;
+        width: 150px;
+        font-size: 10px;
+        
+    }
+    button{
+        height: 20px;
+        width: 80px;
+        font-size: 10px;
+    }
+    h1{
+        font-size: 25px;
+        margin-left: 40px;
+    }
+    label{
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width: 701px) and (max-width: 900px) {
+    .login{
+        height: 150px;
+        width: 225px;
+        margin-top: 120px;
+    }
+    body{
+        background-size: auto;
+    }
+    .log2{
+        height: 280px;
+        width: 225px;
+        padding: 20px;
+    }
+    input{
+        height: 30px;
+        width: 200px;
+        font-size: 15px;
+        
+    }
+    button{
+        height: 30px;
+        width: 100px;
+        font-size: 15px;
+    }
+    h1{
+        font-size: 25px;
+        margin-left: 40px;
+    }
+    label{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .login{
+        height: 175px;
+        width: 250px;
+        margin-top: 140px;
+    }
+    body{
+        background-size: auto;
+    }
+    .log2{
+        height: 300px;
+        width: 250px;
+        padding: 20px;
+    }
+    input{
+        height: 30px;
+        width: 200px;
+        font-size: 20px;
+        
+    }
+    button{
+        height: 30px;
+        width: 100px;
+        font-size: 15px;
+    }
+    h1{
+        font-size: 25px;
+        margin-left: 40px;
+    }
+    label{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,57 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(https://wallpaperaccess.com/full/88771.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.form{    
+    margin-top: 25px;
+    position: relative;
+    animation-name: form;
+    animation-duration: 2s;
+}
+h1{
+    font-size: 50px;
+}
+.h1{
+    color: bisque;
+    width: 700px;
+}
+
+.form2{
+    background-color: burlywood;
+    border: 2px solid black;
+    
+    height: 680px;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+label{
+    font-size: 25px;
+}
+.input{
+    width: 200px;
+    height: 15px;
+}
+button{
+    width: 100px;
+    cursor: pointer;
+    height: 25px;
+}
+@keyframes form {
+    0%{
+        top: 80px; 
+    }
+    100%{
+        top: 0px;
+    }
+}
+
